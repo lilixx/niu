@@ -1,6 +1,6 @@
-# Niu, un tema base de WordPress con Gulp y Sass
+# Niu, un tema de WordPress con Gulp y Sass
 
-Niu es un tema base de WordPress basado en [Underscores](http://underscores.me/), con una implementación de [Sass](http://sass-lang.com/) y una configuración básica de [Gulp](http://gulpjs.com/), que ayuda a acelerar y optimizar el proceso de desarrollo de temas personalizados para WordPress desde cero.
+Niu es un tema de WordPress basado en [Underscores](http://underscores.me/), con una implementación de [Sass](http://sass-lang.com/) y una configuración básica de [Gulp](http://gulpjs.com/) 
 
 ### Requerimientos
 
@@ -43,7 +43,8 @@ $ bower install jquery
 
 ```
 $ cd /tu-directorio-de-wordpress/wp-content/themes/
-$ git clone git@github.com:monchitonet/Niu.git
+$ git clone git@github.com:lilixx/niu.git
+
 ```
 
 Cambia la línea 24 del archivo `gulpfile.js` con los datos de tu servidor. Ingresa a WordPress y activa el tema.
@@ -69,18 +70,13 @@ El comando anterior ejecuta las tareas predefinidas en el archivo `gulpfile.js`.
 $ gulp sass
 ```
 
-### Soporte y preguntas
 
-Si tienes alguna duda acerca del uso de este tema, puedes [mandarnos un mensaje](http://www.monchito.net/contacto/).
 
 ### Enlaces de interés
 
 - [Manual de Sass](http://librosweb.es/libro/sass/capitulo_4.html)
 - [Tutorial de Gulp](https://platzi.com/blog/automatizacion-gulp-js/)
 
-### Contribuyentes
-
-- [Leandro Gómez](https://twitter.com/leogg)
 
 ### Licencia
 
