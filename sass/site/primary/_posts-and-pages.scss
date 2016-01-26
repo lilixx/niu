@@ -1,0 +1,42 @@
+.sticky {
+	display: block;
+}
+
+.hentry {
+	margin: 0 0 1.5em;
+}
+
+.byline,
+.updated:not(.published){
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+body { 
+	background:#eee;
+}
+
+div#content {
+    margin: 0px auto;
+    max-width: 78.75rem;
+    width: 100%;
+    display: block;
+    overflow: auto;
+}
+
+
